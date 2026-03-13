@@ -52,34 +52,7 @@ api_num = 5
 
 def get_response_from_llm(llm_model, queries, task, few_shot, api_num=4):
     model_outputs = []
-        import requests
-        API_URL = "https://api-inference.huggingface.co/models/bigscience/bloom"
-        headers = {"Authorization": ""}
-        def query(payload):
-            response = requests.post(API_URL, headers=headers, json=payload)
-            return response.json()
-        for q in queries:
-            output = None
-            while output == None or len(output) <= 0:
-                output = query({
-                    "inputs": q,
-                })
-            output = output[0]['generated_text']
-            print('Q: ', q)
-            print('OUTPUT: ', output)
-            out_list = re.findall("Answer:.*", output)
-            explain_list = re.findall("Explanation:.*", output)
-            # print(out_list)
-            output = ''
-            if len(out_list) > 0:
-                output = out_list[0].replace('Answer:', '')
-                output = output.strip()
-            if len(explain_list) > 0:
-                explain = explain_list[0].replace('Explanation:', ' ')
-                explain = explain.strip()
-                if task == 'larger_animal' or task == 'word_in_context':
-                    output += explain
-            model_outputs.append(output)
+
     if llm_model.lower() == 't5':
         from transformers import T5Tokenizer, T5ForConditionalGeneration
         # gpu-version
