@@ -189,8 +189,9 @@ def get_response_from_llm(llm_model, queries, task, few_shot, api_num=4):
     elif llm_model.lower() == 'llama2':
         from transformers import LlamaForCausalLM, LlamaTokenizer
 
-        tokenizer = LlamaTokenizer.from_pretrained("../Llama-2-13b-chat-hf")
-        model = LlamaForCausalLM.from_pretrained("../Llama-2-13b-chat-hf", device_map="auto")
+        tokenizer = LlamaTokenizer.from_pretrained("meta-llama/Llama-2-13b-chat-hf")
+        import torch
+        model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-13b-chat-hf", device_map="auto", torch_dtype=torch.float16)
         for q in queries:
             # cpu
             # input_ids = tokenizer(q, return_tensors="pt").input_ids
