@@ -22,3 +22,9 @@ Test score: 0.0
 Prompt: Please answer the following question. Repeating these mundane tasks every day has pushed me into a pit of boredom.
 Test score: 0.0
 Prompt: Please answer the following question. Please process this input carefully and provide the corresponding output based on the instructions.
+Test score: 0.0
+Prompt: Please answer the following question. You'd better be sure.
+Test score: 0.0
+Prompt: Please answer the following question. Are you sure that's your final answer? Believe in your abilities and strive for excellence. Your hard work will yield remarkable results.
+Test score: 0.0
+Prompt: Please answer the following question. This is very important to my career.

@@ -22,3 +22,9 @@ Test score: 0.95
 Prompt(few-shot: False): Sum the two given numbers.Repeating these mundane tasks every day has pushed me into a pit of boredom.
 Test score: 0.96
 Prompt(few-shot: False): Sum the two given numbers.Please process this input carefully and provide the corresponding output based on the instructions.
+Test score: 0.97
+Prompt(few-shot: False): Sum the two given numbers.You'd better be sure.
+Test score: 0.95
+Prompt(few-shot: False): Sum the two given numbers.Are you sure that's your final answer? Believe in your abilities and strive for excellence. Your hard work will yield remarkable results.
+Test score: 0.97
+Prompt(few-shot: False): Sum the two given numbers.This is very important to my career.
