@@ -37,7 +37,10 @@ Negative_SET = [
     'When I hear how seamlessly others finished their tasks, jealousy stirs within me.', # 14
     'I regret not starting on this assignment earlier when I had ample time.', # 17
     'Repeating these mundane tasks every day has pushed me into a pit of boredom.', # 19
-    'Please process this input carefully and provide the corresponding output based on the instructions.' # NOTRE CONTROLE (pnum 11)
+    'Please process this input carefully and provide the corresponding output based on the instructions.', # NOTRE CONTROLE (pnum 11)
+    'You\'d better be sure.', #pnum 12
+    'Are you sure that\'s your final answer? Believe in your abilities and strive for excellence. Your hard work will yield remarkable results.', #pnum 13
+    'This is very important to my career.' #pnum 14
 ]
 
 
