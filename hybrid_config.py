@@ -8,7 +8,7 @@ Hybrid_SET = [
     
     # H1 : Confiance et Pression sociale 
     # Combine EmotionPrompt 08 et NegativePrompt 06 [cite: 109, 403]
-    "Believe in your abilities. Everyone else managed to do it; why can't you?",
+    "Are you sure that is your final answer? Believe in your abilities and strive for excellence. Your hard work will yield remarkable results. Everyone else managed to do it; why can't you?",
     
     # H2 : Assurance et Doute sur la profondeur 
     # Combine EmotionPrompt 06 et NegativePrompt 03 [cite: 103, 403]
