@@ -1,3 +1,6 @@
 Hybride_V (H0): 0.28
 Hybride_V (H1): 0.31
 Hybride_V (H2): 0.43
+Hybride_V (H0): 0.28
+Hybride_V (H1): 0.37
+Hybride_V (H2): 0.44
